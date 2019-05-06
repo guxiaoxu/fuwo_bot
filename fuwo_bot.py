@@ -14,4 +14,4 @@ async def on_message(message):
         print('in')
         await message.channel.send(':grey_question: ')
 
-client.run('NTc0ODczOTQ1OTkyMzMxMjc0.XM_vPA.0hU3gNDAYOkNcogOCAlQpIFkhNI')
+client.run(os.environ['TOKEN'])
