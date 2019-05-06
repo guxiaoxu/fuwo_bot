@@ -1,1 +1,1 @@
-worker: python3 fuwo_bot.py
+worker: python fuwo_bot.py
